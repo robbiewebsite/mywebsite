@@ -1,15 +1,29 @@
-<!DOCTYPE html><html><head lang="en"><meta charset="UTF-8"><title>html5</title><style type="text/css">.theme{
+qianjiahaodeMacBook-Pro:HowToDeployHTML qianjiahao$ git branch
 
-      display: block;
+* gh-pages
 
-      width: 200px;
+ 
 
-      font-size: 30px;
+qianjiahaodeMacBook-Pro:HowToDeployHTML qianjiahao$ git commit -a -m "first commit"
 
-      margin: 100px auto;
+[gh-pages cc8c864] first commit1 file changed, 23 insertions(+), 65 deletions(-)
 
-    }</style></head><body><div class="theme">
+ rewrite index.html (98%)
 
-  Hello, world.
+ 
 
-</div></body></html>
+qianjiahaodeMacBook-Pro:HowToDeployHTML qianjiahao$ git push origin gh-pages
+
+Counting objects: 3, done.
+
+Delta compression using up to 4 threads.
+
+Compressing objects: 100% (3/3), done.
+
+Writing objects: 100% (3/3), 523 bytes | 0 bytes/s, done.
+
+Total 3 (delta 0), reused 0 (delta 0)
+
+To git@github.com:qianjiahao/HowToDeployHTML.git
+
+   3d6ebe7..cc8c864  gh-pages -> gh-pages
